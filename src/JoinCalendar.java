@@ -47,8 +47,8 @@ public class JoinCalendar extends JFrame implements ActionListener {
 
 	private void compose() {
 		
-		Font font =new Font("궁서", Font.BOLD, 20);
-		Font font1 =new Font("궁서", Font.BOLD, 40);
+		Font font =new Font("나눔고딕", Font.BOLD, 20);
+		Font font1 =new Font("나눔고딕", Font.BOLD, 40);
 		title = new JLabel("회원가입");
 		title.setFont(font1);
 		title.setBounds(80, 30, 200, 60);
@@ -57,7 +57,7 @@ public class JoinCalendar extends JFrame implements ActionListener {
 		p1= new JPanel();
 		p1.setLayout(null);
 		p1.setBounds(0,0,300,400);
-		p1.setBackground(Color.yellow);
+		p1.setBackground(Color.white);
 		contentPane.add(p1);
 	
 		p1.add(title);
